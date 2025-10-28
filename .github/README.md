@@ -65,6 +65,7 @@ All suported tags can be found on [dockerhub](https://hub.docker.com/r/brammys/n
 | `GIVE_CLIENTS_POWER`  | `1` 	                                        | If the server should check client actions, a kind of anti-cheat. When this setting is on it will give a much smoother experience for clients. (`0` off, `1` on)                    |
 | `PAUSE`            	| `0` 	                                        | Pauses the world when there are no players in server. (`0` off, `1` on)                                                                |
 | `LOGGING`            	| `1` 	                                        | Generate a log file for each session. (`0` off, `1` on)                                                                                |
+| `LANGUAGE`            | `` 	                                        | Sets the language of the server, only used for occasional messages in log.                                                             |
 | `ZIP`            	    | `1` 	                                        | Whether saves should be compressed. (`0` off, `1` on)                                                                                  |
 | `JVMARGS`            	| `` 	                                        | Any extra arguments to supply to the JVM via the [java command](https://docs.oracle.com/en/java/javase/17/docs/specs/man/java.html).   |
 
