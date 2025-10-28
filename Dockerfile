@@ -27,6 +27,7 @@ ENV PASSWORD=""
 ENV PAUSE=0
 ENV GIVE_CLIENTS_POWER=1
 ENV LOGGING=1
+ENV LANGUAGE=""
 ENV ZIP=1
 ENV JVMARGS=""
 
@@ -61,4 +62,5 @@ ENTRYPOINT java ${JVMARGS} \
 -pausewhenempty ${PAUSE} \
 -giveclientspower ${GIVE_CLIENTS_POWER} \
 -logging ${LOGGING} \
+-language ${LANGUAGE} \
 -zipsaves ${ZIP}
